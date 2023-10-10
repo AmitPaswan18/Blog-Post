@@ -1,5 +1,5 @@
 function Logo({ width = "100px" }) {
-  return <div>Logo</div>;
+  return <div>Blog Post</div>;
 }
 
 export default Logo;
