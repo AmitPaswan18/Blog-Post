@@ -43,13 +43,13 @@ function Header() {
               <Logo width="70px" />
             </Link>
           </div>
-          <ul className="flex ml-auto">
+          <ul className="flex ml-auto items-center gap-2">
             {navItems.map((item) =>
               item.active ? (
                 <li key={item.name}>
                   <button
                     onClick={() => navigate(item.slug)}
-                    className="inline-bock px-6 py-2 duration-200 hover:bg-slate-800 rounded-full">
+                    className="inline-bock  lg:px-6 text-sm lg:py-2 duration-200 lg:text-lg lg:hover:scale-110 lg:mx-2 p-2 bg-slate-800 rounded-full ">
                     {item.name}
                   </button>
                 </li>

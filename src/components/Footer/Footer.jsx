@@ -12,7 +12,7 @@ function Footer() {
               </div>
               <div>
                 <p className="text-sm ">
-                  &copy; Copyright 2023. All Rights Reserved by Storyscroll.
+                  &copy; Copyright 
                 </p>
               </div>
             </div>
